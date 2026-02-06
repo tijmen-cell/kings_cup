@@ -111,7 +111,7 @@ class _GameScreenState extends State<GameScreen> with SingleTickerProviderStateM
                           return Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 2.0),
                             child: Icon(
-                              Icons.local_cafe,
+                              Icons.sports_bar,
                               color: index < game.kingsCount ? AppColors.secondary : AppColors.cardBackground,
                               size: 24,
                             ),
