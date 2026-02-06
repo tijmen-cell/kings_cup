@@ -25,7 +25,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Web
-        run: flutter build web --release --base-href="/kings_cup/"
+        run: flutter build web --release --base-href="/kings_cup/" --web-renderer canvaskit
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
